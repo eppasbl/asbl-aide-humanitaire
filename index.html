@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASBL Aide Humanitaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #f4a261;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #2a9d8f;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 2em;
+            background-color: #fff;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .button {
+            background-color: #e76f51;
+            color: white;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ASBL Aide Humanitaire</h1>
+    <p>Améliorer la qualité de vie dans les pays en développement</p>
+</header>
+
+<nav>
+    <a href="#about">À propos de nous</a>
+    <a href="#projects">Projets</a>
+    <a href="#donate">Faire un don</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content">
+    <section id="about" class="section">
+        <h2>À propos de nous</h2>
+        <p>Notre association humanitaire est dédiée à améliorer la qualité de vie des populations en souffrance dans les pays en développement. Nous nous concentrons sur des projets d'accès à l'eau, de soutien alimentaire et de développement agricole.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Nos Projets</h2>
+        <div>
+            <h3>L'eau, c'est la vie !</h3>
+            <p>Construction de puits et forages pour assurer l'accès à l'eau potable.</p>
+            <img src="image-eau.jpg" alt="Projet eau">
+        </div>
+        <div>
+            <h3>Aide alimentaire</h3>
+            <p>Distribution de nourriture pour les populations en détresse.</p>
+            <img src="image-aide-alimentaire.jpg" alt="Projet aide alimentaire">
+        </div>
+        <div>
+            <h3>Développement agricole</h3>
+            <p>Soutien aux pratiques agricoles durables pour améliorer la sécurité alimentaire.</p>
+            <img src="image-developpement-agricole.jpg" alt="Projet développement agricole">
+        </div>
+    </section>
+
+    <section id="donate" class="section">
+        <h2>Faire un don</h2>
+        <p>Votre soutien est essentiel pour la réussite de nos projets. Vous pouvez contribuer en faisant un don ou en partageant nos actions autour de vous.</p>
+        <a href="donate-link" class="button">Faire un don</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Nous contacter</h2>
+        <p>Rue des Fleuristes 31, 1000 Bruxelles, Belgique</p>
+        <p>Email: <a href="mailto:epp.asbl@gmail.com">epp.asbl@gmail.com</a></p>
+        <p>Téléphone: 0465628955</p>
+        <form action="mailto:epp.asbl@gmail.com" method="post" enctype="text/plain">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="subject">Objet:</label><br>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Votre message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>© 2023 par ASBL Aide Humanitaire</p>
+</footer>
+
+</body>
+</html>
